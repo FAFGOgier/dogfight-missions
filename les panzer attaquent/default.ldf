@@ -1,0 +1,67 @@
+#1CGS Location Database file
+
+GroundObjective
+{
+  Name = "GroundObjective";
+  Desc = "";
+  XPos = 35431.872;
+  YPos = 70.079;
+  ZPos = 10245.428;
+  OY = 0.000;
+  Length = 500;
+  Width = 500;
+  Transport = 0;
+  Armoured = 0;
+  Tank = 1;
+  AAAPosition = 0;
+  Artillery = 0;
+  Building = 0;
+  Ship = 0;
+  Train = 0;
+  RailwayStation = 0;
+  SupplyDump = 0;
+  Factory = 0;
+  Airfield = 0;
+  Port = 0;
+  ReconArea = 0;
+  TroopsConcentration = 0;
+  Ferry = 0;
+  FrontlineStrongpoint = 0;
+  FrontlineEdge = 0;
+  RailwayJunction = 0;
+  Vehicle = 0;
+}
+
+GroundObjective
+{
+  Name = "GroundObjective";
+  Desc = "";
+  XPos = 43251.976;
+  YPos = 30.166;
+  ZPos = 27332.586;
+  OY = 0.000;
+  Length = 500;
+  Width = 500;
+  Transport = 0;
+  Armoured = 0;
+  Tank = 1;
+  AAAPosition = 0;
+  Artillery = 0;
+  Building = 0;
+  Ship = 0;
+  Train = 0;
+  RailwayStation = 0;
+  SupplyDump = 0;
+  Factory = 0;
+  Airfield = 0;
+  Port = 0;
+  ReconArea = 0;
+  TroopsConcentration = 0;
+  Ferry = 0;
+  FrontlineStrongpoint = 0;
+  FrontlineEdge = 0;
+  RailwayJunction = 0;
+  Vehicle = 0;
+}
+
+#end of file
