@@ -1,12 +1,19 @@
-# Ogier's dogfights
+# Les dogfights d'Ogier
 
-A number of dogfights (mostly, disguised coop, Zuti-style) for the FAFG Squad
+Quelques dogfights (en fait, essentiellement des coops "zuti" déguisées) pour l'escadrille des FAFG.
 
-Those missions are made for a french speaking squadron, and I don't take the time to translate them. Feel free to do so.
+- Fight Club : un dofight simple, avec la plupart des avions du jeu, et quelques cibles terrestre. Pas forcément équilibré.
+- frontale : une mission très basique où l'on affronte un pack de HE 111.
+- Jabo FW : côté russe, notre base est attaquée. Une réplique est possible dans un second temps. La mission commence quand le premier joueur apparaît sur la piste.
+- Kuban Demo : le paysage de Kuban; pas d'objectif militaire.
+- Les cruches attaquent : mission non terminée avec des Jugs.
+- Les panzers attaquent : ils arrivent vers notre base de plusieurs horizons.
 
-- Fight Club : a basic dogfight, with most planes and some land targets. Not balanced.
-- frontale : a very raw mission with incoming HE111
-- Jabo FW : Russian side, your base is under attack. Possibility to retaliate afterwards. Note that the attack starts when the first player materialises.
-- Kuban Demo : simply Kuban landscape, no military mission
-- Les cruches attaquent : unfinished mission with attacking jugs.
-- Les panzers attaquent : panzers are advancing toward our base.
+
+# Note
+
+Comme les autres archives de missions, celle-ci ne comprend *pas* les fichiers de missions compilés `.msbin`. Pour les recréer (et accélérer notablement le chargement des missions), il faut charger chaque mission dans l'éditeur de missions, puis la sauvegarder.
+
+L'avantage est que du coup l'archive n'est pas invalidée par une mise à jour d'IL2, qui casse parfois la compatibilité des fichiers `.msbin`.
+
+
