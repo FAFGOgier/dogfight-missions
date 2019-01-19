@@ -46,24 +46,6 @@ Options
   }
 }
 
-MCU_TR_MissionBegin
-{
-  Index = 2;
-  Name = "Translator Mission Begin";
-  Desc = "";
-  Targets = [3];
-  Objects = [];
-  XPos = 48891.096;
-  YPos = 25.389;
-  ZPos = 2557.031;
-  XOri = 0.00;
-  YOri = 0.00;
-  ZOri = 0.00;
-  Enabled = 1;
-}
-
-
-
 Group
 {
   Name = "Decors";
@@ -22574,7 +22556,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1109;
 }
 
@@ -22752,7 +22734,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1122;
 }
 
@@ -22809,7 +22791,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1125;
 }
 
@@ -22866,7 +22848,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1128;
 }
 
@@ -22923,7 +22905,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1131;
 }
 
@@ -22980,7 +22962,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1134;
 }
 
@@ -23037,7 +23019,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1137;
 }
 
@@ -23094,7 +23076,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1140;
 }
 
@@ -23151,7 +23133,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1143;
 }
 
@@ -23208,7 +23190,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1146;
 }
 
@@ -23265,7 +23247,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1149;
 }
 
@@ -23322,7 +23304,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1152;
 }
 
@@ -23379,7 +23361,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1155;
 }
 
@@ -23436,7 +23418,7 @@ MCU_TR_Entity
   XOri = 0.00;
   YOri = 0.00;
   ZOri = 0.00;
-  Enabled = 1;
+  Enabled = 0;
   MisObjID = 1158;
 }
 
@@ -23669,6 +23651,50 @@ MCU_TR_Entity
   ZOri = 0.00;
   Enabled = 1;
   MisObjID = 1165;
+  OnEvents
+  {
+    OnEvent
+    {
+      Type = 20;
+      TarId = 1168;
+    }
+  }
+}
+
+
+
+MCU_Timer
+{
+  Index = 1168;
+  Name = "IN";
+  Desc = "";
+  Targets = [1169,3];
+  Objects = [];
+  XPos = 45561.700;
+  YPos = 82.599;
+  ZPos = 8349.209;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 1;
+  Random = 100;
+}
+
+
+
+MCU_Activate
+{
+  Index = 1169;
+  Name = "Trigger Activate";
+  Desc = "";
+  Targets = [];
+  Objects = [1110,1153];
+  XPos = 42227.698;
+  YPos = 82.599;
+  ZPos = 11084.800;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
 }
 
 

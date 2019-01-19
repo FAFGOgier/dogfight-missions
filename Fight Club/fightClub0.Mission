@@ -59,22 +59,22 @@ Options
   MissionType = 2;
   AqmId = 0;
   CloudLevel = 1400;
-  CloudHeight = 1300;
+  CloudHeight = 600;
   PrecLevel = 0;
   PrecType = 0;
   CloudConfig = "summer\02_Medium_01\sky.ini";
   SeaState = 0;
-  Turbulence = 0;
+  Turbulence = 2;
   TempPressLevel = 0;
   Temperature = 25;
   Pressure = 760;
   WindLayers
   {
-    0 :     90 :     5;
-    500 :     90 :     5;
-    1000 :     100 :     2;
-    2000 :     0 :     0;
-    5000 :     0 :     0;
+    0 :     270 :     5;
+    500 :     280 :     8;
+    1000 :     290 :     10;
+    2000 :     300 :     15;
+    5000 :     310 :     18;
   }
   Countries
   {

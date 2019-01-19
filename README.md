@@ -8,7 +8,7 @@ Quelques dogfights (en fait, essentiellement des coops "zuti" déguisées) pour 
 - Kuban Demo : le paysage de Kuban; pas d'objectif militaire.
 - Les cruches attaquent : mission non terminée avec des Jugs.
 - Les panzers attaquent : ils arrivent vers notre base de plusieurs horizons.
-
+- attaque_port : attaque (côté Luftwaffe) du port de Novorosiysk
 
 # Note
 

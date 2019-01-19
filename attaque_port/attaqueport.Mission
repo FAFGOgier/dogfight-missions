@@ -36,11 +36,11 @@ Options
   SeasonPrefix = "su";
   MissionType = 2;
   AqmId = 0;
-  CloudLevel = 500;
-  CloudHeight = 200;
+  CloudLevel = 1600;
+  CloudHeight = 500;
   PrecLevel = 0;
   PrecType = 0;
-  CloudConfig = "summer\00_clear_00\sky.ini";
+  CloudConfig = "summer\01_Light_05\sky.ini";
   SeaState = 0;
   Turbulence = 0;
   TempPressLevel = 0;
@@ -90159,7 +90159,7 @@ Group
     Name = "start protection";
     Desc = "";
     Targets = [];
-    Objects = [4590,4591,4592,4603,4607];
+    Objects = [4590,4591,4592,4593,4594];
     XPos = 274360.426;
     YPos = 0.000;
     ZPos = 119575.892;
@@ -90173,7 +90173,7 @@ Group
 
   MCU_TR_MissionBegin
   {
-    Index = 4593;
+    Index = 4595;
     Name = "BEGIN";
     Desc = "";
     Targets = [4587];
@@ -90191,7 +90191,7 @@ Group
   Vehicle
   {
     Name = "flak";
-    Index = 4594;
+    Index = 4596;
     LinkTrId = 4590;
     XPos = 274684.514;
     YPos = 62.012;
@@ -90244,14 +90244,14 @@ Group
     YOri = 0.00;
     ZOri = 0.00;
     Enabled = 1;
-    MisObjID = 4594;
+    MisObjID = 4596;
   }
   
 
   Vehicle
   {
     Name = "flak";
-    Index = 4596;
+    Index = 4598;
     LinkTrId = 4591;
     XPos = 273925.030;
     YPos = 62.012;
@@ -90304,14 +90304,14 @@ Group
     YOri = 0.00;
     ZOri = 0.00;
     Enabled = 1;
-    MisObjID = 4596;
+    MisObjID = 4598;
   }
   
 
   Vehicle
   {
     Name = "flak";
-    Index = 4598;
+    Index = 4600;
     LinkTrId = 4592;
     XPos = 273839.124;
     YPos = 62.012;
@@ -90364,14 +90364,14 @@ Group
     YOri = 0.00;
     ZOri = 0.00;
     Enabled = 1;
-    MisObjID = 4598;
+    MisObjID = 4600;
   }
   
 
   Block
   {
     Name = "Block";
-    Index = 4601;
+    Index = 4602;
     LinkTrId = 0;
     XPos = 274684.778;
     YPos = 62.012;
@@ -90393,8 +90393,8 @@ Group
   Vehicle
   {
     Name = "flak";
-    Index = 4602;
-    LinkTrId = 4603;
+    Index = 4603;
+    LinkTrId = 4593;
     XPos = 275091.705;
     YPos = 61.994;
     ZPos = 120612.977;
@@ -90434,7 +90434,7 @@ Group
 
   MCU_TR_Entity
   {
-    Index = 4603;
+    Index = 4593;
     Name = "flak entity";
     Desc = "";
     Targets = [];
@@ -90446,7 +90446,7 @@ Group
     YOri = 0.00;
     ZOri = 0.00;
     Enabled = 1;
-    MisObjID = 4602;
+    MisObjID = 4603;
   }
   
 
@@ -90476,7 +90476,7 @@ Group
   {
     Name = "flak";
     Index = 4606;
-    LinkTrId = 4607;
+    LinkTrId = 4594;
     XPos = 274609.957;
     YPos = 62.001;
     ZPos = 121143.002;
@@ -90516,7 +90516,7 @@ Group
 
   MCU_TR_Entity
   {
-    Index = 4607;
+    Index = 4594;
     Name = "flak entity";
     Desc = "";
     Targets = [];
@@ -90535,7 +90535,7 @@ Group
   Block
   {
     Name = "Block";
-    Index = 4609;
+    Index = 4608;
     LinkTrId = 0;
     XPos = 274610.221;
     YPos = 62.000;
@@ -90557,7 +90557,7 @@ Group
   Block
   {
     Name = "Block";
-    Index = 4614;
+    Index = 4609;
     LinkTrId = 0;
     XPos = 273837.421;
     YPos = 62.012;
@@ -90579,7 +90579,7 @@ Group
   Block
   {
     Name = "Block";
-    Index = 4615;
+    Index = 4610;
     LinkTrId = 0;
     XPos = 273922.378;
     YPos = 62.012;
