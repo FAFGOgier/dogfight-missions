@@ -2,7 +2,8 @@
 
 Quelques dogfights (en fait, essentiellement des coops "zuti" déguisées) pour l'escadrille des FAFG.
 
-- Fight Club : un dofight simple, avec la plupart des avions du jeu, et quelques cibles terrestre. Pas forcément équilibré.
+- evacuation : la Wehrmacht évacue en bateau la péninsule de Kouban. Coulez-les. Flak et opposition aérienne au programme.  
+- Fight Club : un dogfight simple, avec la plupart des avions du jeu, et quelques cibles terrestre. Pas forcément équilibré.
 - frontale : une mission très basique où l'on affronte un pack de HE 111.
 - Jabo FW : côté russe, notre base est attaquée. Une réplique est possible dans un second temps. La mission commence quand le premier joueur apparaît sur la piste.
 - Kuban Demo : le paysage de Kuban; pas d'objectif militaire.

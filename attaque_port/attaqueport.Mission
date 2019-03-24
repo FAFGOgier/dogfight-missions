@@ -13,12 +13,16 @@ Options
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\bf109g2.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\bf109g4.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\bf109g6.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\bf109k4.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\bf110e2.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\bf110g2.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\fokkerd7.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\fokkerd7f.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\fokkerdr1.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\fw190a3.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\fw190a5.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\fw190a8.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\fw190d9.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\he111h16.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\he111h6.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\hs129b2.txt";
@@ -26,6 +30,7 @@ Options
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\ju87d3.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\ju88a4.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\mc202s8.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\pfalzd3a.txt";
   Time = 9:30:0;
   Date = 15.4.1943;
   HMap = "graphics\LANDSCAPE_Kuban_sp\height.hini";
@@ -1690,14 +1695,14 @@ Group
 
     Airfield
     {
-      Name = "Kersk-1";
-      Index = 80;
-      LinkTrId = 81;
-      XPos = 274932.162;
+      Name = "Kersk";
+      Index = 4611;
+      LinkTrId = 4612;
+      XPos = 274950.086;
       YPos = 62.012;
-      ZPos = 120756.007;
+      ZPos = 120751.740;
       XOri = 0.00;
-      YOri = 219.65;
+      YOri = 219.05;
       ZOri = 0.00;
       Model = "graphics\airfields\fakefield.mgm";
       Script = "LuaScripts\WorldObjects\Airfields\fakefield.txt";
@@ -2271,6 +2276,146 @@ Group
           Callsign = 0;
           Callnum = 0;
         }
+        Plane
+        {
+          SetIndex = 0;
+          Number = -1;
+          AILevel = 2;
+          StartInAir = 2;
+          Engageable = 1;
+          Vulnerable = 1;
+          LimitAmmo = 1;
+          AIRTBDecision = 1;
+          Renewable = 1;
+          PayloadId = 0;
+          WMMask = 1;
+          Fuel = 1;
+          RouteTime = 0;
+          RenewTime = 1800;
+          Altitude = 500;
+          Spotter = -1;
+          Model = "graphics\planes\bf109k4\bf109k4.mgm";
+          Script = "LuaScripts\WorldObjects\Planes\bf109k4.txt";
+          Name = "";
+          Skin = "";
+          AvMods = "";
+          AvSkins = "";
+          AvPayloads = "";
+          Callsign = 0;
+          Callnum = 0;
+        }
+        Plane
+        {
+          SetIndex = 0;
+          Number = -1;
+          AILevel = 2;
+          StartInAir = 2;
+          Engageable = 1;
+          Vulnerable = 1;
+          LimitAmmo = 1;
+          AIRTBDecision = 1;
+          Renewable = 1;
+          PayloadId = 0;
+          WMMask = 1;
+          Fuel = 1;
+          RouteTime = 0;
+          RenewTime = 1800;
+          Altitude = 500;
+          Spotter = -1;
+          Model = "graphics\planes\fokkerd7f\fokkerd7f.mgm";
+          Script = "LuaScripts\WorldObjects\Planes\fokkerd7f.txt";
+          Name = "";
+          Skin = "";
+          AvMods = "";
+          AvSkins = "";
+          AvPayloads = "";
+          Callsign = 0;
+          Callnum = 0;
+        }
+        Plane
+        {
+          SetIndex = 0;
+          Number = -1;
+          AILevel = 2;
+          StartInAir = 2;
+          Engageable = 1;
+          Vulnerable = 1;
+          LimitAmmo = 1;
+          AIRTBDecision = 1;
+          Renewable = 1;
+          PayloadId = 0;
+          WMMask = 1;
+          Fuel = 1;
+          RouteTime = 0;
+          RenewTime = 1800;
+          Altitude = 500;
+          Spotter = -1;
+          Model = "graphics\planes\fokkerd7\fokkerd7.mgm";
+          Script = "LuaScripts\WorldObjects\Planes\fokkerd7.txt";
+          Name = "";
+          Skin = "";
+          AvMods = "";
+          AvSkins = "";
+          AvPayloads = "";
+          Callsign = 0;
+          Callnum = 0;
+        }
+        Plane
+        {
+          SetIndex = 0;
+          Number = -1;
+          AILevel = 2;
+          StartInAir = 2;
+          Engageable = 1;
+          Vulnerable = 1;
+          LimitAmmo = 1;
+          AIRTBDecision = 1;
+          Renewable = 1;
+          PayloadId = 0;
+          WMMask = 1;
+          Fuel = 1;
+          RouteTime = 0;
+          RenewTime = 1800;
+          Altitude = 500;
+          Spotter = -1;
+          Model = "graphics\planes\fw190d9\fw190d9.mgm";
+          Script = "LuaScripts\WorldObjects\Planes\fw190d9.txt";
+          Name = "";
+          Skin = "";
+          AvMods = "";
+          AvSkins = "";
+          AvPayloads = "";
+          Callsign = 0;
+          Callnum = 0;
+        }
+        Plane
+        {
+          SetIndex = 0;
+          Number = -1;
+          AILevel = 2;
+          StartInAir = 2;
+          Engageable = 1;
+          Vulnerable = 1;
+          LimitAmmo = 1;
+          AIRTBDecision = 1;
+          Renewable = 1;
+          PayloadId = 0;
+          WMMask = 1;
+          Fuel = 1;
+          RouteTime = 0;
+          RenewTime = 1800;
+          Altitude = 500;
+          Spotter = -1;
+          Model = "graphics\planes\pfalzd3a\pfalzd3a.mgm";
+          Script = "LuaScripts\WorldObjects\Planes\pfalzd3a.txt";
+          Name = "";
+          Skin = "";
+          AvMods = "";
+          AvSkins = "";
+          AvPayloads = "";
+          Callsign = 0;
+          Callnum = 0;
+        }
       }
       Chart
       {
@@ -2385,19 +2530,19 @@ Group
 
     MCU_TR_Entity
     {
-      Index = 81;
+      Index = 4612;
       Name = "Airfield entity";
       Desc = "";
       Targets = [];
       Objects = [];
-      XPos = 274932.162;
+      XPos = 274950.086;
       YPos = 62.212;
-      ZPos = 120756.007;
+      ZPos = 120751.740;
       XOri = 0.00;
       YOri = 0.00;
       ZOri = 0.00;
       Enabled = 1;
-      MisObjID = 80;
+      MisObjID = 4611;
     }
     
 
