@@ -24,6 +24,8 @@ Options
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\fw190a5.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\fw190a8.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\fw190d9.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\halberstadtcl2.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\halberstadtcl2au.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\he111h16.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\he111h6.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\hs129b2.txt";
@@ -39,17 +41,18 @@ Options
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\lagg3s29.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\mc202s8.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\mig3s24.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p38j25.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p39l1.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p40e1.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p47d28.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p51d15.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\pe2s35.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\pe2s87.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\pfalzd3a.txt";
-  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\sopcamel.txt";
-  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\sopdolphin.txt";
-  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spad13.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spitfiremkixe.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spitfiremkvb.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\tempestmkvs2.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\u2vs.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak1s127.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak1s69.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak7bs36.txt";
@@ -87,7 +90,18 @@ Options
   {
     0 : 0;
     101 : 1;
+    102 : 1;
+    103 : 1;
     201 : 2;
+    202 : 2;
+    203 : 2;
+    301 : 3;
+    302 : 3;
+    303 : 3;
+    304 : 3;
+    305 : 3;
+    401 : 4;
+    402 : 4;
   }
 }
 
@@ -23405,14 +23419,14 @@ Group
   Group
   {
     Name = "Dca Allemande Simple";
-    Index = 1201;
+    Index = 1198;
     Desc = "";
     MCU_Timer
     {
-      Index = 1202;
+      Index = 1199;
       Name = "IN";
       Desc = "";
-      Targets = [1203];
+      Targets = [1200];
       Objects = [];
       XPos = 6361.356;
       YPos = 0.000;
@@ -23427,11 +23441,11 @@ Group
 
     MCU_CMD_ForceComplete
     {
-      Index = 1203;
+      Index = 1200;
       Name = "start protection";
       Desc = "";
       Targets = [];
-      Objects = [1205,1206,1207];
+      Objects = [1202,1203,1204];
       XPos = 6770.981;
       YPos = 0.000;
       ZPos = 41648.600;
@@ -23445,10 +23459,10 @@ Group
 
     MCU_TR_MissionBegin
     {
-      Index = 1208;
+      Index = 1205;
       Name = "BEGIN";
       Desc = "";
-      Targets = [1202];
+      Targets = [1199];
       Objects = [];
       XPos = 6828.049;
       YPos = 21.026;
@@ -23463,108 +23477,112 @@ Group
     Vehicle
     {
       Name = "flak";
-      Index = 1209;
-      LinkTrId = 1205;
-      XPos = 7486.502;
-      YPos = 33.855;
-      ZPos = 42293.689;
-      XOri = 0.00;
-      YOri = 0.96;
-      ZOri = 0.00;
-      Script = "LuaScripts\WorldObjects\vehicles\flak37.txt";
-      Model = "graphics\artillery\flak37\flak37.mgm";
-      Desc = "";
-      Country = 201;
-      NumberInFormation = 0;
-      Vulnerable = 1;
-      Engageable = 1;
-      LimitAmmo = 1;
-      AILevel = 1;
-      DamageReport = 50;
-      DamageThreshold = 1;
-      DeleteAfterDeath = 1;
-      CoopStart = 0;
-      Spotter = -1;
-      BeaconChannel = 0;
-      Callsign = 0;
-      PayloadId = 0;
-      WMMask = 1;
-      Fuel = 1;
-      Callnum = 0;
-      Skin = "";
-      RepairFriendlies = 0;
-      RearmFriendlies = 0;
-      RefuelFriendlies = 0;
-      RepairTime = 0;
-      RearmTime = 0;
-      RefuelTime = 0;
-      MaintenanceRadius = 10;
-    }
-    
-
-    MCU_TR_Entity
-    {
-      Index = 1205;
-      Name = "flak entity";
-      Desc = "";
-      Targets = [];
-      Objects = [];
-      XPos = 7486.502;
-      YPos = 34.055;
-      ZPos = 42293.689;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Enabled = 1;
-      MisObjID = 1209;
-    }
-    
-
-    Vehicle
-    {
-      Name = "flak";
-      Index = 1211;
-      LinkTrId = 1206;
-      XPos = 6248.571;
-      YPos = 33.855;
-      ZPos = 42244.937;
-      XOri = 0.00;
-      YOri = 0.96;
-      ZOri = 0.00;
-      Script = "LuaScripts\WorldObjects\vehicles\flak37.txt";
-      Model = "graphics\artillery\flak37\flak37.mgm";
-      Desc = "";
-      Country = 201;
-      NumberInFormation = 0;
-      Vulnerable = 1;
-      Engageable = 1;
-      LimitAmmo = 1;
-      AILevel = 1;
-      DamageReport = 50;
-      DamageThreshold = 1;
-      DeleteAfterDeath = 1;
-      CoopStart = 0;
-      Spotter = -1;
-      BeaconChannel = 0;
-      Callsign = 0;
-      PayloadId = 0;
-      WMMask = 1;
-      Fuel = 1;
-      Callnum = 0;
-      Skin = "";
-      RepairFriendlies = 0;
-      RearmFriendlies = 0;
-      RefuelFriendlies = 0;
-      RepairTime = 0;
-      RearmTime = 0;
-      RefuelTime = 0;
-      MaintenanceRadius = 10;
-    }
-    
-
-    MCU_TR_Entity
-    {
       Index = 1206;
+      LinkTrId = 1202;
+      XPos = 7486.502;
+      YPos = 33.855;
+      ZPos = 42293.689;
+      XOri = 0.00;
+      YOri = 0.96;
+      ZOri = 0.00;
+      Script = "LuaScripts\WorldObjects\vehicles\flak37.txt";
+      Model = "graphics\artillery\flak37\flak37.mgm";
+      Desc = "";
+      Country = 201;
+      NumberInFormation = 0;
+      Vulnerable = 1;
+      Engageable = 1;
+      LimitAmmo = 1;
+      AILevel = 1;
+      DamageReport = 50;
+      DamageThreshold = 1;
+      DeleteAfterDeath = 1;
+      CoopStart = 0;
+      Spotter = -1;
+      BeaconChannel = 0;
+      Callsign = 0;
+      PayloadId = 0;
+      WMMask = 1;
+      Fuel = 1;
+      Callnum = 0;
+      Skin = "";
+      RepairFriendlies = 0;
+      RehealFriendlies = 0;
+      RearmFriendlies = 0;
+      RefuelFriendlies = 0;
+      RepairTime = 0;
+      RehealTime = 1;
+      RearmTime = 0;
+      RefuelTime = 0;
+      MaintenanceRadius = 10;
+    }
+    
+
+    MCU_TR_Entity
+    {
+      Index = 1202;
+      Name = "flak entity";
+      Desc = "";
+      Targets = [];
+      Objects = [];
+      XPos = 7486.502;
+      YPos = 34.055;
+      ZPos = 42293.689;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Enabled = 1;
+      MisObjID = 1206;
+    }
+    
+
+    Vehicle
+    {
+      Name = "flak";
+      Index = 1208;
+      LinkTrId = 1203;
+      XPos = 6248.571;
+      YPos = 33.855;
+      ZPos = 42244.937;
+      XOri = 0.00;
+      YOri = 0.96;
+      ZOri = 0.00;
+      Script = "LuaScripts\WorldObjects\vehicles\flak37.txt";
+      Model = "graphics\artillery\flak37\flak37.mgm";
+      Desc = "";
+      Country = 201;
+      NumberInFormation = 0;
+      Vulnerable = 1;
+      Engageable = 1;
+      LimitAmmo = 1;
+      AILevel = 1;
+      DamageReport = 50;
+      DamageThreshold = 1;
+      DeleteAfterDeath = 1;
+      CoopStart = 0;
+      Spotter = -1;
+      BeaconChannel = 0;
+      Callsign = 0;
+      PayloadId = 0;
+      WMMask = 1;
+      Fuel = 1;
+      Callnum = 0;
+      Skin = "";
+      RepairFriendlies = 0;
+      RehealFriendlies = 0;
+      RearmFriendlies = 0;
+      RefuelFriendlies = 0;
+      RepairTime = 0;
+      RehealTime = 1;
+      RearmTime = 0;
+      RefuelTime = 0;
+      MaintenanceRadius = 10;
+    }
+    
+
+    MCU_TR_Entity
+    {
+      Index = 1203;
       Name = "flak entity";
       Desc = "";
       Targets = [];
@@ -23576,15 +23594,15 @@ Group
       YOri = 0.00;
       ZOri = 0.00;
       Enabled = 1;
-      MisObjID = 1211;
+      MisObjID = 1208;
     }
     
 
     Vehicle
     {
       Name = "flak";
-      Index = 1213;
-      LinkTrId = 1207;
+      Index = 1210;
+      LinkTrId = 1204;
       XPos = 6091.337;
       YPos = 33.855;
       ZPos = 41487.190;
@@ -23613,9 +23631,11 @@ Group
       Callnum = 0;
       Skin = "";
       RepairFriendlies = 0;
+      RehealFriendlies = 0;
       RearmFriendlies = 0;
       RefuelFriendlies = 0;
       RepairTime = 0;
+      RehealTime = 1;
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
@@ -23624,7 +23644,7 @@ Group
 
     MCU_TR_Entity
     {
-      Index = 1207;
+      Index = 1204;
       Name = "flak entity";
       Desc = "";
       Targets = [];
@@ -23636,13 +23656,13 @@ Group
       YOri = 0.00;
       ZOri = 0.00;
       Enabled = 1;
-      MisObjID = 1213;
+      MisObjID = 1210;
     }
     
 
     MCU_Icon
     {
-      Index = 1215;
+      Index = 1212;
       Targets = [];
       Objects = [];
       XPos = 6843.623;
@@ -23669,8 +23689,8 @@ Group
   Airfield
   {
     Name = "Nagibaevka";
-    Index = 1585;
-    LinkTrId = 1586;
+    Index = 1213;
+    LinkTrId = 1214;
     XPos = 6151.047;
     YPos = 92.747;
     ZPos = 41665.888;
@@ -24389,6 +24409,90 @@ Group
         Callsign = 0;
         Callnum = 0;
       }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\halberstadtcl2\halberstadtcl2.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\halberstadtcl2.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\halberstadtcl2au\halberstadtcl2au.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\halberstadtcl2au.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\ju523mg4e\ju523mg4e.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\ju523mg4e.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
     }
     Chart
     {
@@ -24492,9 +24596,11 @@ Group
     ReturnPlanes = 0;
     Hydrodrome = 0;
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 1000;
@@ -24503,7 +24609,7 @@ Group
 
   MCU_TR_Entity
   {
-    Index = 1586;
+    Index = 1214;
     Name = "Airfield entity";
     Desc = "";
     Targets = [];
@@ -24515,7 +24621,7 @@ Group
     YOri = 0.00;
     ZOri = 0.00;
     Enabled = 1;
-    MisObjID = 1585;
+    MisObjID = 1213;
   }
   
 
@@ -24530,7 +24636,7 @@ Group
   Desc = "";
   MCU_Icon
   {
-    Index = 1220;
+    Index = 1217;
     Targets = [];
     Objects = [];
     XPos = 38921.847;
@@ -24554,8 +24660,8 @@ Group
   Airfield
   {
     Name = "Dubki";
-    Index = 1582;
-    LinkTrId = 1583;
+    Index = 1218;
+    LinkTrId = 1219;
     XPos = 38923.428;
     YPos = 159.128;
     ZPos = 33339.294;
@@ -25040,34 +25146,6 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\spad13\spad13.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\spad13.txt";
-        Name = "";
-        Skin = "";
-        AvMods = "";
-        AvSkins = "";
-        AvPayloads = "";
-        Callsign = 0;
-        Callnum = 0;
-      }
-      Plane
-      {
-        SetIndex = 0;
-        Number = -1;
-        AILevel = 2;
-        StartInAir = 2;
-        Engageable = 1;
-        Vulnerable = 1;
-        LimitAmmo = 1;
-        AIRTBDecision = 1;
-        Renewable = 1;
-        PayloadId = 0;
-        WMMask = 1;
-        Fuel = 1;
-        RouteTime = 0;
-        RenewTime = 1800;
-        Altitude = 500;
-        Spotter = -1;
         Model = "graphics\planes\spitfiremkixe\spitfiremkixe.mgm";
         Script = "LuaScripts\WorldObjects\Planes\spitfiremkixe.txt";
         Name = "";
@@ -25152,8 +25230,8 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\sopcamel\sopcamel.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\sopcamel.txt";
+        Model = "graphics\planes\p38j25\p38j25.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\p38j25.txt";
         Name = "";
         Skin = "";
         AvMods = "";
@@ -25180,8 +25258,8 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\sopdolphin\sopdolphin.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\sopdolphin.txt";
+        Model = "graphics\planes\p51d15\p51d15.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\p51d15.txt";
         Name = "";
         Skin = "";
         AvMods = "";
@@ -25208,8 +25286,36 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\spad13\spad13.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\spad13.txt";
+        Model = "graphics\planes\tempestmkvs2\tempestmkvs2.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\tempestmkvs2.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\u2vs\u2vs.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\u2vs.txt";
         Name = "";
         Skin = "";
         AvMods = "";
@@ -25339,9 +25445,11 @@ Group
     ReturnPlanes = 0;
     Hydrodrome = 0;
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 1000;
@@ -25350,7 +25458,7 @@ Group
 
   MCU_TR_Entity
   {
-    Index = 1583;
+    Index = 1219;
     Name = "Airfield entity";
     Desc = "";
     Targets = [];
@@ -25362,7 +25470,7 @@ Group
     YOri = 0.00;
     ZOri = 0.00;
     Enabled = 1;
-    MisObjID = 1582;
+    MisObjID = 1218;
   }
   
 
@@ -25465,11 +25573,11 @@ MCU_TR_InfluenceArea
   Country = 201;
   Boundary
   {
-    112.196, -623.05;
-    41133.3, -565.748;
-    30128, 12343.4;
-    26048.6, 16637.4;
-    -94.8102, 60626;
+    112, -623;
+    41133, -565;
+    30128, 12343;
+    26048, 16637;
+    -94, 60626;
   }
 }
 
@@ -25492,11 +25600,11 @@ MCU_TR_InfluenceArea
   Country = 101;
   Boundary
   {
-    26121.4, 17244.1;
-    41262.5, -147.886;
-    51152.5, 285.887;
-    51111.5, 51210.9;
-    2003.63, 57329.4;
+    26121, 17244;
+    41262, -147;
+    51152, 285;
+    51111, 51210;
+    2003, 57329;
   }
 }
 
@@ -25606,9 +25714,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -25701,9 +25811,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -25761,9 +25873,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -26403,9 +26517,11 @@ Airfield
   ReturnPlanes = 0;
   Hydrodrome = 0;
   RepairFriendlies = 0;
+  RehealFriendlies = 0;
   RearmFriendlies = 0;
   RefuelFriendlies = 0;
   RepairTime = 0;
+  RehealTime = 1;
   RearmTime = 0;
   RefuelTime = 0;
   MaintenanceRadius = 1000;
@@ -26478,9 +26594,11 @@ Airfield
   ReturnPlanes = 0;
   Hydrodrome = 0;
   RepairFriendlies = 0;
+  RehealFriendlies = 0;
   RearmFriendlies = 0;
   RefuelFriendlies = 0;
   RepairTime = 0;
+  RehealTime = 1;
   RearmTime = 0;
   RefuelTime = 0;
   MaintenanceRadius = 1000;
@@ -26569,9 +26687,11 @@ Group
     Callnum = 0;
     Skin = "<multiple>";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -26611,9 +26731,11 @@ Group
     Callnum = 0;
     Skin = "<multiple>";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -26762,9 +26884,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -26822,9 +26946,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -26882,9 +27008,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -26942,9 +27070,11 @@ Group
     Callnum = 0;
     Skin = "<multiple>";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27011,9 +27141,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27071,9 +27203,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27184,9 +27318,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27244,9 +27380,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27304,9 +27442,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27364,9 +27504,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27424,9 +27566,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27484,9 +27628,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27544,9 +27690,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27604,9 +27752,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27664,9 +27814,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27724,9 +27876,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27784,9 +27938,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27844,9 +28000,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27904,9 +28062,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27964,9 +28124,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28024,9 +28186,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28084,9 +28248,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28199,9 +28365,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28259,9 +28427,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28319,9 +28489,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28379,9 +28551,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28439,9 +28613,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28499,9 +28675,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28559,9 +28737,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28619,9 +28799,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28679,9 +28861,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28739,9 +28923,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28799,9 +28985,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28859,9 +29047,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28919,9 +29109,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28979,9 +29171,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -29039,9 +29233,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -29099,9 +29295,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -29258,9 +29456,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -29318,9 +29518,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -29632,9 +29834,11 @@ Vehicle
   Callnum = 0;
   Skin = "";
   RepairFriendlies = 0;
+  RehealFriendlies = 0;
   RearmFriendlies = 0;
   RefuelFriendlies = 0;
   RepairTime = 0;
+  RehealTime = 1;
   RearmTime = 0;
   RefuelTime = 0;
   MaintenanceRadius = 10;
@@ -29699,9 +29903,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -29832,9 +30038,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -29892,9 +30100,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -29952,9 +30162,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30012,9 +30224,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30072,9 +30286,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30132,9 +30348,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30192,9 +30410,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30261,9 +30481,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30394,9 +30616,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30454,9 +30678,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30514,9 +30740,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30574,9 +30802,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30634,9 +30864,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30694,9 +30926,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30754,9 +30988,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30823,9 +31059,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -30956,9 +31194,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31016,9 +31256,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31076,9 +31318,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31136,9 +31380,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31196,9 +31442,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31256,9 +31504,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31316,9 +31566,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31385,9 +31637,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31518,9 +31772,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31578,9 +31834,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31638,9 +31896,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31698,9 +31958,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31758,9 +32020,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31818,9 +32082,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -31878,9 +32144,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;

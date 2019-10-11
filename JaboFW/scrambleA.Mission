@@ -7,6 +7,9 @@ Options
   LCAuthor = 2;
   PlayerConfig = "";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\a20b.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\b25draf.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\bristolf2bf2.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\bristolf2bf3.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\i16t24.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\il2m41.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\il2m42.txt";
@@ -15,15 +18,20 @@ Options
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\la5s8.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\lagg3s29.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\mig3s24.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p38j25.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p39l1.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p40e1.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p47d28.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p51d15.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\pe2s35.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\pe2s87.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\se5a.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\sopcamel.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\sopdolphin.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spad13.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spitfiremkixe.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spitfiremkvb.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\tempestmkvs2.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak1s127.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak1s69.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak7bs36.txt";
@@ -59,7 +67,18 @@ Options
   {
     0 : 0;
     101 : 1;
+    102 : 1;
+    103 : 1;
     201 : 2;
+    202 : 2;
+    203 : 2;
+    301 : 3;
+    302 : 3;
+    303 : 3;
+    304 : 3;
+    305 : 3;
+    401 : 4;
+    402 : 4;
   }
 }
 
@@ -788,9 +807,11 @@ Group
       Callnum = 0;
       Skin = "";
       RepairFriendlies = 0;
+      RehealFriendlies = 0;
       RearmFriendlies = 0;
       RefuelFriendlies = 0;
       RepairTime = 0;
+      RehealTime = 1;
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
@@ -856,9 +877,11 @@ Group
       Callnum = 0;
       Skin = "";
       RepairFriendlies = 0;
+      RehealFriendlies = 0;
       RearmFriendlies = 0;
       RefuelFriendlies = 0;
       RepairTime = 0;
+      RehealTime = 1;
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
@@ -959,9 +982,11 @@ Group
       Callnum = 0;
       Skin = "";
       RepairFriendlies = 0;
+      RehealFriendlies = 0;
       RearmFriendlies = 0;
       RefuelFriendlies = 0;
       RepairTime = 0;
+      RehealTime = 1;
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
@@ -26451,13 +26476,239 @@ Group
         Callsign = 0;
         Callnum = 0;
       }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\sopdolphin\sopdolphin.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\sopdolphin.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\bristolf2bf2\bristolf2bf2.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\bristolf2bf2.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\bristolf2bf3\bristolf2bf3.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\bristolf2bf3.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\se5a\se5a.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\se5a.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\b25draf\b25draf.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\b25draf.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\p38j25\p38j25.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\p38j25.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\p51d15\p51d15.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\p51d15.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\tempestmkvs2\tempestmkvs2.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\tempestmkvs2.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
     }
     ReturnPlanes = 1;
     Hydrodrome = 0;
     RepairFriendlies = 1;
+    RehealFriendlies = 0;
     RearmFriendlies = 1;
     RefuelFriendlies = 1;
     RepairTime = 60;
+    RehealTime = 1;
     RearmTime = 10;
     RefuelTime = 10;
     MaintenanceRadius = 1000;
@@ -26791,9 +27042,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -26851,9 +27104,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27225,9 +27480,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -27285,9 +27542,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28523,9 +28782,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
@@ -28703,9 +28964,11 @@ Group
     Callnum = 0;
     Skin = "";
     RepairFriendlies = 0;
+    RehealFriendlies = 0;
     RearmFriendlies = 0;
     RefuelFriendlies = 0;
     RepairTime = 0;
+    RehealTime = 1;
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
