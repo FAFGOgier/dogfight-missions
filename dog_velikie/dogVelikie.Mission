@@ -41,21 +41,24 @@ Options
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\mc202s8.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\me262a.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\mig3s24.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p38j25.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p39l1.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p40e1.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p47d22.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p47d28.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\p51d15.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\pe2s35.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\pe2s87.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\pfalzd3a.txt";
-  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\se5a.txt";
-  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\sopcamel.txt";
-  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\sopdolphin.txt";
-  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spad13.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spitfiremkixe.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spitfiremkvb.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\tempestmkvs2.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\u2vs.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak1s127.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak1s69.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak7bs36.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak9s1.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak9ts1.txt";
   Time = 12:30:0;
   Date = 1.6.1942;
   HMap = "graphics\LANDSCAPE_velikie_luki_s\height.hini";
@@ -117089,34 +117092,6 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\spad13\spad13.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\spad13.txt";
-        Name = "";
-        Skin = "";
-        AvMods = "";
-        AvSkins = "";
-        AvPayloads = "";
-        Callsign = 0;
-        Callnum = 0;
-      }
-      Plane
-      {
-        SetIndex = 0;
-        Number = -1;
-        AILevel = 2;
-        StartInAir = 2;
-        Engageable = 1;
-        Vulnerable = 1;
-        LimitAmmo = 1;
-        AIRTBDecision = 1;
-        Renewable = 1;
-        PayloadId = 0;
-        WMMask = 1;
-        Fuel = 1;
-        RouteTime = 0;
-        RenewTime = 1800;
-        Altitude = 500;
-        Spotter = -1;
         Model = "graphics\planes\spitfiremkixe\spitfiremkixe.mgm";
         Script = "LuaScripts\WorldObjects\Planes\spitfiremkixe.txt";
         Name = "";
@@ -117201,8 +117176,8 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\sopcamel\sopcamel.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\sopcamel.txt";
+        Model = "graphics\planes\yak1s69\yak1s69.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\yak1s69.txt";
         Name = "";
         Skin = "";
         AvMods = "";
@@ -117229,8 +117204,8 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\sopdolphin\sopdolphin.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\sopdolphin.txt";
+        Model = "graphics\planes\la5s8\la5s8.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\la5s8.txt";
         Name = "";
         Skin = "";
         AvMods = "";
@@ -117257,8 +117232,8 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\spad13\spad13.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\spad13.txt";
+        Model = "graphics\planes\p47d22\p47d22.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\p47d22.txt";
         Name = "";
         Skin = "";
         AvMods = "";
@@ -117285,8 +117260,148 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\se5a\se5a.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\se5a.txt";
+        Model = "graphics\planes\p51d15\p51d15.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\p51d15.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\tempestmkvs2\tempestmkvs2.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\tempestmkvs2.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\u2vs\u2vs.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\u2vs.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\yak9s1\yak9s1.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\yak9s1.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\yak9ts1\yak9ts1.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\yak9ts1.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\p38j25\p38j25.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\p38j25.txt";
         Name = "";
         Skin = "";
         AvMods = "";
@@ -117887,16 +118002,449 @@ Group
   Name = "Base VVS";
   Index = 5471;
   Desc = "";
+  Group
+  {
+    Name = "Dca Russe Simple";
+    Index = 5472;
+    Desc = "";
+    MCU_Timer
+    {
+      Index = 5473;
+      Name = "IN";
+      Desc = "";
+      Targets = [5474];
+      Objects = [];
+      XPos = 32412.345;
+      YPos = 0.000;
+      ZPos = 104893.194;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Time = 5;
+      Random = 100;
+    }
+    
+
+    Vehicle
+    {
+      Name = "flak";
+      Index = 5475;
+      LinkTrId = 5476;
+      XPos = 32954.005;
+      YPos = 139.454;
+      ZPos = 104620.646;
+      XOri = 0.00;
+      YOri = 0.96;
+      ZOri = 0.00;
+      Script = "LuaScripts\WorldObjects\vehicles\52k.txt";
+      Model = "graphics\artillery\52k\52k.mgm";
+      Desc = "";
+      Country = 101;
+      NumberInFormation = 0;
+      Vulnerable = 1;
+      Engageable = 1;
+      LimitAmmo = 1;
+      AILevel = 1;
+      DamageReport = 50;
+      DamageThreshold = 1;
+      DeleteAfterDeath = 1;
+      CoopStart = 0;
+      Spotter = -1;
+      BeaconChannel = 0;
+      Callsign = 0;
+      PayloadId = 0;
+      WMMask = 1;
+      Fuel = 1;
+      Callnum = 0;
+      Skin = "";
+      RepairFriendlies = 0;
+      RehealFriendlies = 0;
+      RearmFriendlies = 0;
+      RefuelFriendlies = 0;
+      RepairTime = 0;
+      RehealTime = 0;
+      RearmTime = 0;
+      RefuelTime = 0;
+      MaintenanceRadius = 10;
+    }
+    
+
+    MCU_TR_Entity
+    {
+      Index = 5476;
+      Name = "flak entity";
+      Desc = "";
+      Targets = [];
+      Objects = [];
+      XPos = 32954.005;
+      YPos = 139.654;
+      ZPos = 104620.646;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Enabled = 1;
+      MisObjID = 5475;
+      OnEvents
+      {
+        OnEvent
+        {
+          Type = 13;
+          TarId = 5478;
+        }
+      }
+    }
+    
+
+    MCU_CMD_ForceComplete
+    {
+      Index = 5474;
+      Name = "start protection";
+      Desc = "";
+      Targets = [];
+      Objects = [5476,5480,5481];
+      XPos = 32412.777;
+      YPos = 0.000;
+      ZPos = 104900.432;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Priority = 0;
+      EmergencyOrdnanceDrop = 0;
+    }
+    
+
+    MCU_TR_MissionBegin
+    {
+      Index = 5482;
+      Name = "BEGIN";
+      Desc = "";
+      Targets = [5473];
+      Objects = [];
+      XPos = 32412.549;
+      YPos = 21.026;
+      ZPos = 104885.818;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Enabled = 1;
+    }
+    
+
+    Vehicle
+    {
+      Name = "flak";
+      Index = 5483;
+      LinkTrId = 5480;
+      XPos = 32332.325;
+      YPos = 139.454;
+      ZPos = 105485.360;
+      XOri = 0.00;
+      YOri = 0.96;
+      ZOri = 0.00;
+      Script = "LuaScripts\WorldObjects\vehicles\52k.txt";
+      Model = "graphics\artillery\52k\52k.mgm";
+      Desc = "";
+      Country = 101;
+      NumberInFormation = 0;
+      Vulnerable = 1;
+      Engageable = 1;
+      LimitAmmo = 1;
+      AILevel = 1;
+      DamageReport = 50;
+      DamageThreshold = 1;
+      DeleteAfterDeath = 1;
+      CoopStart = 0;
+      Spotter = -1;
+      BeaconChannel = 0;
+      Callsign = 0;
+      PayloadId = 0;
+      WMMask = 1;
+      Fuel = 1;
+      Callnum = 0;
+      Skin = "";
+      RepairFriendlies = 0;
+      RehealFriendlies = 0;
+      RearmFriendlies = 0;
+      RefuelFriendlies = 0;
+      RepairTime = 0;
+      RehealTime = 0;
+      RearmTime = 0;
+      RefuelTime = 0;
+      MaintenanceRadius = 10;
+    }
+    
+
+    MCU_TR_Entity
+    {
+      Index = 5480;
+      Name = "flak entity";
+      Desc = "";
+      Targets = [];
+      Objects = [];
+      XPos = 32332.325;
+      YPos = 139.654;
+      ZPos = 105485.360;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Enabled = 1;
+      MisObjID = 5483;
+      OnEvents
+      {
+        OnEvent
+        {
+          Type = 13;
+          TarId = 5485;
+        }
+      }
+    }
+    
+
+    Vehicle
+    {
+      Name = "flak";
+      Index = 5486;
+      LinkTrId = 5481;
+      XPos = 32934.636;
+      YPos = 139.454;
+      ZPos = 105046.448;
+      XOri = 0.00;
+      YOri = 0.96;
+      ZOri = 0.00;
+      Script = "LuaScripts\WorldObjects\vehicles\52k.txt";
+      Model = "graphics\artillery\52k\52k.mgm";
+      Desc = "";
+      Country = 101;
+      NumberInFormation = 0;
+      Vulnerable = 1;
+      Engageable = 1;
+      LimitAmmo = 1;
+      AILevel = 1;
+      DamageReport = 50;
+      DamageThreshold = 1;
+      DeleteAfterDeath = 1;
+      CoopStart = 0;
+      Spotter = -1;
+      BeaconChannel = 0;
+      Callsign = 0;
+      PayloadId = 0;
+      WMMask = 1;
+      Fuel = 1;
+      Callnum = 0;
+      Skin = "";
+      RepairFriendlies = 0;
+      RehealFriendlies = 0;
+      RearmFriendlies = 0;
+      RefuelFriendlies = 0;
+      RepairTime = 0;
+      RehealTime = 0;
+      RearmTime = 0;
+      RefuelTime = 0;
+      MaintenanceRadius = 10;
+    }
+    
+
+    MCU_TR_Entity
+    {
+      Index = 5481;
+      Name = "flak entity";
+      Desc = "";
+      Targets = [];
+      Objects = [];
+      XPos = 32934.636;
+      YPos = 139.654;
+      ZPos = 105046.448;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Enabled = 1;
+      MisObjID = 5486;
+      OnEvents
+      {
+        OnEvent
+        {
+          Type = 13;
+          TarId = 5488;
+        }
+      }
+    }
+    
+
+    MCU_Timer
+    {
+      Index = 5478;
+      Name = "destroyed";
+      Desc = "";
+      Targets = [5490];
+      Objects = [];
+      XPos = 32958.443;
+      YPos = 105.020;
+      ZPos = 104667.518;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Time = 0;
+      Random = 100;
+    }
+    
+
+    MCU_CMD_Damage
+    {
+      Index = 5491;
+      Name = "command Damage";
+      Desc = "";
+      Targets = [];
+      Objects = [5476];
+      XPos = 32956.757;
+      YPos = 103.844;
+      ZPos = 104667.444;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Damage = 2;
+      Type = 0;
+    }
+    
+
+    MCU_Timer
+    {
+      Index = 5490;
+      Name = "Trigger Timer";
+      Desc = "";
+      Targets = [5491];
+      Objects = [];
+      XPos = 32957.115;
+      YPos = 106.856;
+      ZPos = 104670.022;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Time = 480;
+      Random = 100;
+    }
+    
+
+    MCU_Timer
+    {
+      Index = 5493;
+      Name = "destroyed";
+      Desc = "";
+      Targets = [5485];
+      Objects = [];
+      XPos = 32379.317;
+      YPos = 105.020;
+      ZPos = 105482.109;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Time = 0;
+      Random = 100;
+    }
+    
+
+    MCU_CMD_Damage
+    {
+      Index = 5494;
+      Name = "command Damage";
+      Desc = "";
+      Targets = [];
+      Objects = [5480];
+      XPos = 32372.030;
+      YPos = 103.844;
+      ZPos = 105478.674;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Damage = 2;
+      Type = 0;
+    }
+    
+
+    MCU_Timer
+    {
+      Index = 5485;
+      Name = "Trigger Timer";
+      Desc = "";
+      Targets = [5494];
+      Objects = [];
+      XPos = 32373.508;
+      YPos = 106.856;
+      ZPos = 105480.132;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Time = 480;
+      Random = 100;
+    }
+    
+
+    MCU_Timer
+    {
+      Index = 5488;
+      Name = "destroyed";
+      Desc = "";
+      Targets = [5497];
+      Objects = [];
+      XPos = 32934.104;
+      YPos = 105.020;
+      ZPos = 105084.683;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Time = 0;
+      Random = 100;
+    }
+    
+
+    MCU_CMD_Damage
+    {
+      Index = 5498;
+      Name = "command Damage";
+      Desc = "";
+      Targets = [];
+      Objects = [5481];
+      XPos = 32934.658;
+      YPos = 103.844;
+      ZPos = 105092.451;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Damage = 2;
+      Type = 0;
+    }
+    
+
+    MCU_Timer
+    {
+      Index = 5497;
+      Name = "Trigger Timer";
+      Desc = "";
+      Targets = [5498];
+      Objects = [];
+      XPos = 32936.136;
+      YPos = 106.856;
+      ZPos = 105088.308;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Time = 480;
+      Random = 100;
+    }
+    
+
+  }
+  
+
   Airfield
   {
     Name = "Base RU";
-    Index = 5472;
-    LinkTrId = 5473;
-    XPos = 32307.711;
+    Index = 5500;
+    LinkTrId = 5501;
+    XPos = 32331.036;
     YPos = 139.454;
-    ZPos = 105191.505;
+    ZPos = 105156.499;
     XOri = 0.00;
-    YOri = 46.15;
+    YOri = 55.27;
     ZOri = 0.00;
     Model = "graphics\airfields\fakefield.mgm";
     Script = "LuaScripts\WorldObjects\Airfields\fakefield.txt";
@@ -118376,34 +118924,6 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\spad13\spad13.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\spad13.txt";
-        Name = "";
-        Skin = "";
-        AvMods = "";
-        AvSkins = "";
-        AvPayloads = "";
-        Callsign = 0;
-        Callnum = 0;
-      }
-      Plane
-      {
-        SetIndex = 0;
-        Number = -1;
-        AILevel = 2;
-        StartInAir = 2;
-        Engageable = 1;
-        Vulnerable = 1;
-        LimitAmmo = 1;
-        AIRTBDecision = 1;
-        Renewable = 1;
-        PayloadId = 0;
-        WMMask = 1;
-        Fuel = 1;
-        RouteTime = 0;
-        RenewTime = 1800;
-        Altitude = 500;
-        Spotter = -1;
         Model = "graphics\planes\spitfiremkixe\spitfiremkixe.mgm";
         Script = "LuaScripts\WorldObjects\Planes\spitfiremkixe.txt";
         Name = "";
@@ -118488,8 +119008,8 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\sopcamel\sopcamel.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\sopcamel.txt";
+        Model = "graphics\planes\yak1s69\yak1s69.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\yak1s69.txt";
         Name = "";
         Skin = "";
         AvMods = "";
@@ -118516,8 +119036,8 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\sopdolphin\sopdolphin.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\sopdolphin.txt";
+        Model = "graphics\planes\la5s8\la5s8.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\la5s8.txt";
         Name = "";
         Skin = "";
         AvMods = "";
@@ -118544,8 +119064,8 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\spad13\spad13.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\spad13.txt";
+        Model = "graphics\planes\p47d22\p47d22.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\p47d22.txt";
         Name = "";
         Skin = "";
         AvMods = "";
@@ -118572,8 +119092,148 @@ Group
         RenewTime = 1800;
         Altitude = 500;
         Spotter = -1;
-        Model = "graphics\planes\se5a\se5a.mgm";
-        Script = "LuaScripts\WorldObjects\Planes\se5a.txt";
+        Model = "graphics\planes\p51d15\p51d15.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\p51d15.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\tempestmkvs2\tempestmkvs2.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\tempestmkvs2.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\u2vs\u2vs.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\u2vs.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\yak9s1\yak9s1.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\yak9s1.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\yak9ts1\yak9ts1.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\yak9ts1.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\p38j25\p38j25.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\p38j25.txt";
         Name = "";
         Skin = "";
         AvMods = "";
@@ -118716,452 +119376,19 @@ Group
 
   MCU_TR_Entity
   {
-    Index = 5473;
+    Index = 5501;
     Name = "Airfield entity";
     Desc = "";
     Targets = [];
     Objects = [];
-    XPos = 32307.711;
+    XPos = 32331.036;
     YPos = 139.654;
-    ZPos = 105191.505;
+    ZPos = 105156.499;
     XOri = 0.00;
     YOri = 0.00;
     ZOri = 0.00;
     Enabled = 1;
-    MisObjID = 5472;
-  }
-  
-
-  Group
-  {
-    Name = "Dca Russe Simple";
-    Index = 5475;
-    Desc = "";
-    MCU_Timer
-    {
-      Index = 5476;
-      Name = "IN";
-      Desc = "";
-      Targets = [5477];
-      Objects = [];
-      XPos = 32412.345;
-      YPos = 0.000;
-      ZPos = 104893.194;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Time = 5;
-      Random = 100;
-    }
-    
-
-    Vehicle
-    {
-      Name = "flak";
-      Index = 5478;
-      LinkTrId = 5479;
-      XPos = 32954.005;
-      YPos = 139.454;
-      ZPos = 104620.646;
-      XOri = 0.00;
-      YOri = 0.96;
-      ZOri = 0.00;
-      Script = "LuaScripts\WorldObjects\vehicles\52k.txt";
-      Model = "graphics\artillery\52k\52k.mgm";
-      Desc = "";
-      Country = 101;
-      NumberInFormation = 0;
-      Vulnerable = 1;
-      Engageable = 1;
-      LimitAmmo = 1;
-      AILevel = 1;
-      DamageReport = 50;
-      DamageThreshold = 1;
-      DeleteAfterDeath = 1;
-      CoopStart = 0;
-      Spotter = -1;
-      BeaconChannel = 0;
-      Callsign = 0;
-      PayloadId = 0;
-      WMMask = 1;
-      Fuel = 1;
-      Callnum = 0;
-      Skin = "";
-      RepairFriendlies = 0;
-      RehealFriendlies = 0;
-      RearmFriendlies = 0;
-      RefuelFriendlies = 0;
-      RepairTime = 0;
-      RehealTime = 0;
-      RearmTime = 0;
-      RefuelTime = 0;
-      MaintenanceRadius = 10;
-    }
-    
-
-    MCU_TR_Entity
-    {
-      Index = 5479;
-      Name = "flak entity";
-      Desc = "";
-      Targets = [];
-      Objects = [];
-      XPos = 32954.005;
-      YPos = 139.654;
-      ZPos = 104620.646;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Enabled = 1;
-      MisObjID = 5478;
-      OnEvents
-      {
-        OnEvent
-        {
-          Type = 13;
-          TarId = 5481;
-        }
-      }
-    }
-    
-
-    MCU_CMD_ForceComplete
-    {
-      Index = 5477;
-      Name = "start protection";
-      Desc = "";
-      Targets = [];
-      Objects = [5479,5483,5484];
-      XPos = 32412.777;
-      YPos = 0.000;
-      ZPos = 104900.432;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Priority = 0;
-      EmergencyOrdnanceDrop = 0;
-    }
-    
-
-    MCU_TR_MissionBegin
-    {
-      Index = 5485;
-      Name = "BEGIN";
-      Desc = "";
-      Targets = [5476];
-      Objects = [];
-      XPos = 32412.549;
-      YPos = 21.026;
-      ZPos = 104885.818;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Enabled = 1;
-    }
-    
-
-    Vehicle
-    {
-      Name = "flak";
-      Index = 5486;
-      LinkTrId = 5483;
-      XPos = 32332.325;
-      YPos = 139.454;
-      ZPos = 105485.360;
-      XOri = 0.00;
-      YOri = 0.96;
-      ZOri = 0.00;
-      Script = "LuaScripts\WorldObjects\vehicles\52k.txt";
-      Model = "graphics\artillery\52k\52k.mgm";
-      Desc = "";
-      Country = 101;
-      NumberInFormation = 0;
-      Vulnerable = 1;
-      Engageable = 1;
-      LimitAmmo = 1;
-      AILevel = 1;
-      DamageReport = 50;
-      DamageThreshold = 1;
-      DeleteAfterDeath = 1;
-      CoopStart = 0;
-      Spotter = -1;
-      BeaconChannel = 0;
-      Callsign = 0;
-      PayloadId = 0;
-      WMMask = 1;
-      Fuel = 1;
-      Callnum = 0;
-      Skin = "";
-      RepairFriendlies = 0;
-      RehealFriendlies = 0;
-      RearmFriendlies = 0;
-      RefuelFriendlies = 0;
-      RepairTime = 0;
-      RehealTime = 0;
-      RearmTime = 0;
-      RefuelTime = 0;
-      MaintenanceRadius = 10;
-    }
-    
-
-    MCU_TR_Entity
-    {
-      Index = 5483;
-      Name = "flak entity";
-      Desc = "";
-      Targets = [];
-      Objects = [];
-      XPos = 32332.325;
-      YPos = 139.654;
-      ZPos = 105485.360;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Enabled = 1;
-      MisObjID = 5486;
-      OnEvents
-      {
-        OnEvent
-        {
-          Type = 13;
-          TarId = 5488;
-        }
-      }
-    }
-    
-
-    Vehicle
-    {
-      Name = "flak";
-      Index = 5489;
-      LinkTrId = 5484;
-      XPos = 32934.636;
-      YPos = 139.454;
-      ZPos = 105046.448;
-      XOri = 0.00;
-      YOri = 0.96;
-      ZOri = 0.00;
-      Script = "LuaScripts\WorldObjects\vehicles\52k.txt";
-      Model = "graphics\artillery\52k\52k.mgm";
-      Desc = "";
-      Country = 101;
-      NumberInFormation = 0;
-      Vulnerable = 1;
-      Engageable = 1;
-      LimitAmmo = 1;
-      AILevel = 1;
-      DamageReport = 50;
-      DamageThreshold = 1;
-      DeleteAfterDeath = 1;
-      CoopStart = 0;
-      Spotter = -1;
-      BeaconChannel = 0;
-      Callsign = 0;
-      PayloadId = 0;
-      WMMask = 1;
-      Fuel = 1;
-      Callnum = 0;
-      Skin = "";
-      RepairFriendlies = 0;
-      RehealFriendlies = 0;
-      RearmFriendlies = 0;
-      RefuelFriendlies = 0;
-      RepairTime = 0;
-      RehealTime = 0;
-      RearmTime = 0;
-      RefuelTime = 0;
-      MaintenanceRadius = 10;
-    }
-    
-
-    MCU_TR_Entity
-    {
-      Index = 5484;
-      Name = "flak entity";
-      Desc = "";
-      Targets = [];
-      Objects = [];
-      XPos = 32934.636;
-      YPos = 139.654;
-      ZPos = 105046.448;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Enabled = 1;
-      MisObjID = 5489;
-      OnEvents
-      {
-        OnEvent
-        {
-          Type = 13;
-          TarId = 5491;
-        }
-      }
-    }
-    
-
-    MCU_Timer
-    {
-      Index = 5481;
-      Name = "destroyed";
-      Desc = "";
-      Targets = [5493];
-      Objects = [];
-      XPos = 32958.443;
-      YPos = 105.020;
-      ZPos = 104667.518;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Time = 0;
-      Random = 100;
-    }
-    
-
-    MCU_CMD_Damage
-    {
-      Index = 5494;
-      Name = "command Damage";
-      Desc = "";
-      Targets = [];
-      Objects = [5479];
-      XPos = 32956.757;
-      YPos = 103.844;
-      ZPos = 104667.444;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Damage = 2;
-      Type = 0;
-    }
-    
-
-    MCU_Timer
-    {
-      Index = 5493;
-      Name = "Trigger Timer";
-      Desc = "";
-      Targets = [5494];
-      Objects = [];
-      XPos = 32957.115;
-      YPos = 106.856;
-      ZPos = 104670.022;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Time = 480;
-      Random = 100;
-    }
-    
-
-    MCU_Timer
-    {
-      Index = 5496;
-      Name = "destroyed";
-      Desc = "";
-      Targets = [5488];
-      Objects = [];
-      XPos = 32379.317;
-      YPos = 105.020;
-      ZPos = 105482.109;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Time = 0;
-      Random = 100;
-    }
-    
-
-    MCU_CMD_Damage
-    {
-      Index = 5497;
-      Name = "command Damage";
-      Desc = "";
-      Targets = [];
-      Objects = [5483];
-      XPos = 32372.030;
-      YPos = 103.844;
-      ZPos = 105478.674;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Damage = 2;
-      Type = 0;
-    }
-    
-
-    MCU_Timer
-    {
-      Index = 5488;
-      Name = "Trigger Timer";
-      Desc = "";
-      Targets = [5497];
-      Objects = [];
-      XPos = 32373.508;
-      YPos = 106.856;
-      ZPos = 105480.132;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Time = 480;
-      Random = 100;
-    }
-    
-
-    MCU_Timer
-    {
-      Index = 5491;
-      Name = "destroyed";
-      Desc = "";
-      Targets = [5500];
-      Objects = [];
-      XPos = 32934.104;
-      YPos = 105.020;
-      ZPos = 105084.683;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Time = 0;
-      Random = 100;
-    }
-    
-
-    MCU_CMD_Damage
-    {
-      Index = 5501;
-      Name = "command Damage";
-      Desc = "";
-      Targets = [];
-      Objects = [5484];
-      XPos = 32934.658;
-      YPos = 103.844;
-      ZPos = 105092.451;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Damage = 2;
-      Type = 0;
-    }
-    
-
-    MCU_Timer
-    {
-      Index = 5500;
-      Name = "Trigger Timer";
-      Desc = "";
-      Targets = [5501];
-      Objects = [];
-      XPos = 32936.136;
-      YPos = 106.856;
-      ZPos = 105088.308;
-      XOri = 0.00;
-      YOri = 0.00;
-      ZOri = 0.00;
-      Time = 480;
-      Random = 100;
-    }
-    
-
+    MisObjID = 5500;
   }
   
 
@@ -151725,9 +151952,9 @@ Group
       Desc = "";
       Targets = [7624,7625,7626];
       Objects = [];
-      XPos = 56602.679;
+      XPos = 56677.104;
       YPos = 49.828;
-      ZPos = 72116.824;
+      ZPos = 71876.351;
       XOri = 0.00;
       YOri = 0.00;
       ZOri = 0.00;
@@ -151743,9 +151970,9 @@ Group
       Desc = "";
       Targets = [7628];
       Objects = [];
-      XPos = 56595.947;
+      XPos = 56652.860;
       YPos = 47.932;
-      ZPos = 72053.592;
+      ZPos = 71905.055;
       XOri = 0.00;
       YOri = 0.00;
       ZOri = 0.00;
@@ -151761,9 +151988,9 @@ Group
       Desc = "";
       Targets = [7630,7631];
       Objects = [];
-      XPos = 56608.339;
+      XPos = 56673.070;
       YPos = 49.628;
-      ZPos = 72100.314;
+      ZPos = 71981.172;
       XOri = 0.00;
       YOri = 0.00;
       ZOri = 0.00;
@@ -151779,9 +152006,9 @@ Group
       Desc = "";
       Targets = [];
       Objects = [7621];
-      XPos = 56585.649;
+      XPos = 56642.875;
       YPos = 47.244;
-      ZPos = 72091.074;
+      ZPos = 71949.417;
       XOri = 0.00;
       YOri = 0.00;
       ZOri = 0.00;
@@ -151795,9 +152022,9 @@ Group
       Desc = "";
       Targets = [];
       Objects = [7621];
-      XPos = 56625.234;
+      XPos = 56747.816;
       YPos = 53.148;
-      ZPos = 72089.483;
+      ZPos = 71954.705;
       XOri = 0.00;
       YOri = 0.00;
       ZOri = 0.00;
@@ -151811,9 +152038,9 @@ Group
       Desc = "";
       Targets = [7622];
       Objects = [];
-      XPos = 56595.868;
+      XPos = 56726.893;
       YPos = 50.380;
-      ZPos = 72089.272;
+      ZPos = 71948.553;
       XOri = 0.00;
       YOri = 0.00;
       ZOri = 0.00;
