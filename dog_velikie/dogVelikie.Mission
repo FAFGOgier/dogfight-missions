@@ -152212,10 +152212,10 @@ Group
         Targets = [];
         Objects = [7649];
         XPos = 55942.281;
-        YPos = 56.652;
-        ZPos = 71888.984;
+        YPos = 56.779;
+        ZPos = 71889.177;
         XOri = 0.00;
-        YOri = 333.86;
+        YOri = 331.31;
         ZOri = 0.00;
         Priority = 1;
       }
@@ -152299,11 +152299,11 @@ Group
         Index = 7659;
         LinkTrId = 7649;
         XPos = 55943.425;
-        YPos = 56.779;
+        YPos = 58.549;
         ZPos = 71888.262;
         XOri = 0.00;
-        YOri = 342.79;
-        ZOri = 0.00;
+        YOri = 332.93;
+        ZOri = 12.20;
         Script = "LuaScripts\WorldObjects\Planes\fw190a8.txt";
         Model = "graphics\planes\fw190a8\fw190a8.mgm";
         Country = 201;
@@ -152338,7 +152338,7 @@ Group
         Targets = [];
         Objects = [];
         XPos = 55943.425;
-        YPos = 56.979;
+        YPos = 58.749;
         ZPos = 71888.262;
         XOri = 0.00;
         YOri = 0.00;
@@ -152371,11 +152371,11 @@ Group
         Index = 7662;
         LinkTrId = 7644;
         XPos = 55982.385;
-        YPos = 56.767;
+        YPos = 58.537;
         ZPos = 71897.535;
         XOri = 0.02;
-        YOri = 342.79;
-        ZOri = 359.98;
+        YOri = 329.06;
+        ZOri = 12.19;
         Script = "LuaScripts\WorldObjects\Planes\fw190a8.txt";
         Model = "graphics\planes\fw190a8\fw190a8.mgm";
         Country = 201;
@@ -152410,7 +152410,7 @@ Group
         Targets = [];
         Objects = [];
         XPos = 55982.385;
-        YPos = 56.967;
+        YPos = 58.737;
         ZPos = 71897.535;
         XOri = 0.00;
         YOri = 0.00;
@@ -152538,13 +152538,13 @@ Group
         Desc = "";
         Targets = [];
         Objects = [7644];
-        XPos = 56205.295;
+        XPos = 56060.622;
         YPos = 58.318;
-        ZPos = 70530.323;
+        ZPos = 71854.667;
         XOri = 0.00;
         YOri = 0.00;
         ZOri = 0.00;
-        NoTaxiTakeoff = 0;
+        NoTaxiTakeoff = 1;
       }
       
 
@@ -152555,13 +152555,13 @@ Group
         Desc = "";
         Targets = [];
         Objects = [7649];
-        XPos = 56092.594;
+        XPos = 56005.366;
         YPos = 60.182;
-        ZPos = 70516.721;
+        ZPos = 71852.659;
         XOri = 0.00;
         YOri = 0.00;
         ZOri = 0.00;
-        NoTaxiTakeoff = 0;
+        NoTaxiTakeoff = 1;
       }
       
 
