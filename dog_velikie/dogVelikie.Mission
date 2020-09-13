@@ -121691,8 +121691,8 @@ Group
       XOri = 0.35;
       YOri = 295.46;
       ZOri = 1.49;
-      Script = "LuaScripts\WorldObjects\Vehicles\flak37.txt";
-      Model = "graphics\artillery\flak37\flak37.mgm";
+      Script = "LuaScripts\WorldObjects\vehicles\flak38.txt";
+      Model = "graphics\artillery\flak38\flak38.mgm";
       Desc = "";
       Country = 201;
       NumberInFormation = 0;
@@ -122064,8 +122064,8 @@ Group
       XOri = 0.35;
       YOri = 295.46;
       ZOri = 1.49;
-      Script = "LuaScripts\WorldObjects\Vehicles\flak37.txt";
-      Model = "graphics\artillery\flak37\flak37.mgm";
+      Script = "LuaScripts\WorldObjects\vehicles\flak36.txt";
+      Model = "graphics\artillery\flak36\flak36.mgm";
       Desc = "";
       Country = 201;
       NumberInFormation = 0;
@@ -123243,8 +123243,8 @@ Group
       XOri = 0.35;
       YOri = 295.46;
       ZOri = 1.49;
-      Script = "LuaScripts\WorldObjects\Vehicles\flak37.txt";
-      Model = "graphics\artillery\flak37\flak37.mgm";
+      Script = "LuaScripts\WorldObjects\vehicles\flak38.txt";
+      Model = "graphics\artillery\flak38\flak38.mgm";
       Desc = "";
       Country = 201;
       NumberInFormation = 0;
@@ -123616,8 +123616,8 @@ Group
       XOri = 0.35;
       YOri = 295.46;
       ZOri = 1.49;
-      Script = "LuaScripts\WorldObjects\Vehicles\flak37.txt";
-      Model = "graphics\artillery\flak37\flak37.mgm";
+      Script = "LuaScripts\WorldObjects\vehicles\mg34-aa.txt";
+      Model = "graphics\artillery\mg34-aa\mg34-aa.mgm";
       Desc = "";
       Country = 201;
       NumberInFormation = 0;
@@ -123989,8 +123989,8 @@ Group
       XOri = 0.35;
       YOri = 295.52;
       ZOri = 1.49;
-      Script = "LuaScripts\WorldObjects\Vehicles\flak37.txt";
-      Model = "graphics\artillery\flak37\flak37.mgm";
+      Script = "LuaScripts\WorldObjects\vehicles\flak36.txt";
+      Model = "graphics\artillery\flak36\flak36.mgm";
       Desc = "";
       Country = 201;
       NumberInFormation = 0;
@@ -124362,8 +124362,8 @@ Group
       XOri = 0.35;
       YOri = 295.52;
       ZOri = 1.49;
-      Script = "LuaScripts\WorldObjects\Vehicles\flak37.txt";
-      Model = "graphics\artillery\flak37\flak37.mgm";
+      Script = "LuaScripts\WorldObjects\vehicles\flak38.txt";
+      Model = "graphics\artillery\flak38\flak38.mgm";
       Desc = "";
       Country = 201;
       NumberInFormation = 0;
@@ -155819,7 +155819,7 @@ Group
 
   Group
   {
-    Name = "German AAA MG34 on demand";
+    Name = "German AAA FLAK38 on demand";
     Index = 7938;
     Desc = "";
     MCU_CheckZone
@@ -155926,8 +155926,8 @@ Group
       XOri = 0.00;
       YOri = 295.46;
       ZOri = 0.00;
-      Script = "LuaScripts\WorldObjects\vehicles\mg34-aa.txt";
-      Model = "graphics\artillery\mg34-aa\mg34-aa.mgm";
+      Script = "LuaScripts\WorldObjects\vehicles\flak38.txt";
+      Model = "graphics\artillery\flak38\flak38.mgm";
       Desc = "";
       Country = 201;
       NumberInFormation = 0;
