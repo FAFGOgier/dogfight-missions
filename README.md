@@ -13,7 +13,7 @@ Quelques dogfights (en fait, essentiellement des coops "zuti" déguisées) pour 
 
 # Note
 
-Comme les autres archives de missions, celle-ci ne comprend *pas* les fichiers de missions compilés `.msbin`. Pour les recréer (et accélérer notablement le chargement des missions), il faut charger chaque mission dans l'éditeur de missions, puis la sauvegarder.
+Cette archive comprend *pas* les fichiers de missions compilés `.msbin`. Pour les recréer (et accélérer notablement le chargement des missions), il faut charger chaque mission dans l'éditeur de missions, puis la sauvegarder.
 
 L'avantage est que du coup l'archive n'est pas invalidée par une mise à jour d'IL2, qui casse parfois la compatibilité des fichiers `.msbin`.
 

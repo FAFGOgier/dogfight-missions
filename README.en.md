@@ -1,6 +1,12 @@
 # Ogier's dogfights
 
-A number of dogfights (mostly, disguised coop, Zuti-style) for the FAFG Squad
+A number of dogfights (mostly, disguised coop, Zuti-style) for the FAFG Squad.
+
+The missions are supposed to be stored in folder
+
+~~~
+data\Multiplayer\Dogfight\Ogier_Dog
+~~~
 
 Those missions are made for a french speaking squadron, and I don't take the time to translate them. Feel free to do so.
 
@@ -10,3 +16,4 @@ Those missions are made for a french speaking squadron, and I don't take the tim
 - Kuban Demo : simply Kuban landscape, no military mission
 - Les cruches attaquent : unfinished mission with attacking jugs.
 - Les panzers attaquent : panzers are advancing toward our base.
+
