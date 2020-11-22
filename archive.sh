@@ -13,7 +13,6 @@ add frontale
 add frontale_dora
 add Interception_B25
 add JaboFW
-add README.en.md
 add README.md
 
 git archive --format zip -o "Ogier_Dog.zip" master $to_export
