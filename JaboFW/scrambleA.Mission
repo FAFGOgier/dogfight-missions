@@ -10,6 +10,7 @@ Options
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\b25draf.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\bristolf2bf2.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\bristolf2bf3.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\hurricanemkii.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\i16t24.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\il2m41.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\il2m42.txt";
@@ -55,6 +56,7 @@ Options
   TempPressLevel = 0;
   Temperature = 25;
   Pressure = 760;
+  Haze = 0;
   WindLayers
   {
     0 :     0 :     0;
@@ -26692,6 +26694,34 @@ Group
         Spotter = -1;
         Model = "graphics\planes\tempestmkvs2\tempestmkvs2.mgm";
         Script = "LuaScripts\WorldObjects\Planes\tempestmkvs2.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\hurricanemkii\hurricanemkii.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\hurricanemkii.txt";
         Name = "";
         Skin = "";
         AvMods = "";

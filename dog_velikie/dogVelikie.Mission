@@ -79,6 +79,7 @@ Options
   TempPressLevel = 0;
   Temperature = 25;
   Pressure = 760;
+  Haze = 0;
   WindLayers
   {
     0 :     0 :     0;
