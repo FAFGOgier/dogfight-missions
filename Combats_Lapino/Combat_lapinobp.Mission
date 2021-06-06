@@ -45,9 +45,11 @@ Options
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\pe2s87.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spitfiremkixe.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spitfiremkvb.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\spitfiremkxiv.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\tempestmkvs2.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak1s127.txt";
   MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Planes\yak1s69.txt";
+  MultiplayerPlaneConfig = "LuaScripts\WorldObjects\Vehicles\_gaz-mm-72k.txt";
   Time = 8:30:0;
   Date = 25.8.1942;
   HMap = "graphics\LANDSCAPE_summer\height.hini";
@@ -22802,6 +22804,8 @@ Group
         DeleteAfterDeath = 1;
         Spotter = -1;
         Fuel = 0.5;
+        TCode = "";
+        TCodeColor = "";
       }
       
 
@@ -23083,6 +23087,8 @@ Group
         DeleteAfterDeath = 1;
         Spotter = -1;
         Fuel = 0.5;
+        TCode = "";
+        TCodeColor = "";
       }
       
 
@@ -23138,6 +23144,8 @@ Group
         DeleteAfterDeath = 1;
         Spotter = -1;
         Fuel = 0.5;
+        TCode = "";
+        TCodeColor = "";
       }
       
 
@@ -23261,6 +23269,8 @@ Group
         RearmTime = 0;
         RefuelTime = 0;
         MaintenanceRadius = 10;
+        TCode = "";
+        TCodeColor = "";
       }
       
 
@@ -23323,6 +23333,8 @@ Group
         RearmTime = 0;
         RefuelTime = 0;
         MaintenanceRadius = 10;
+        TCode = "";
+        TCodeColor = "";
       }
       
 
@@ -23385,6 +23397,8 @@ Group
         RearmTime = 0;
         RefuelTime = 0;
         MaintenanceRadius = 10;
+        TCode = "";
+        TCodeColor = "";
       }
       
 
@@ -24979,6 +24993,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25007,6 +25023,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25035,6 +25053,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25063,6 +25083,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25091,6 +25113,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25119,6 +25143,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25147,6 +25173,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25175,6 +25203,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25203,6 +25233,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25231,6 +25263,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25259,6 +25293,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25287,6 +25323,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25315,6 +25353,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25343,6 +25383,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25371,6 +25413,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25399,6 +25443,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25427,6 +25473,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25455,6 +25503,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25483,6 +25533,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25511,6 +25563,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25539,6 +25593,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -25567,6 +25623,38 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
+      }
+      Plane
+      {
+        SetIndex = 0;
+        Number = -1;
+        AILevel = 2;
+        StartInAir = 2;
+        Engageable = 1;
+        Vulnerable = 1;
+        LimitAmmo = 1;
+        AIRTBDecision = 1;
+        Renewable = 1;
+        PayloadId = 0;
+        WMMask = 1;
+        Fuel = 1;
+        RouteTime = 0;
+        RenewTime = 1800;
+        Altitude = 500;
+        Spotter = -1;
+        Model = "graphics\planes\spitfiremkxiv\spitfiremkxiv.mgm";
+        Script = "LuaScripts\WorldObjects\Planes\spitfiremkxiv.txt";
+        Name = "";
+        Skin = "";
+        AvMods = "";
+        AvSkins = "";
+        AvPayloads = "";
+        Callsign = 0;
+        Callnum = 0;
+        TCode = "   ";
+        TCodeColors = "000";
       }
     }
     Chart
@@ -25782,6 +25870,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -25879,6 +25969,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -25941,6 +26033,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -26003,6 +26097,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -26065,6 +26161,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -26351,6 +26449,8 @@ Group
     DeleteAfterDeath = 1;
     Spotter = -1;
     Fuel = 1;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -27160,6 +27260,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27188,6 +27290,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27216,6 +27320,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27244,6 +27350,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27272,6 +27380,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27300,6 +27410,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27328,6 +27440,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27356,6 +27470,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27384,6 +27500,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27412,6 +27530,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27440,6 +27560,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27468,6 +27590,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27496,6 +27620,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27524,6 +27650,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27552,6 +27680,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27580,6 +27710,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27608,6 +27740,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27636,6 +27770,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27664,6 +27800,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27692,6 +27830,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
       Plane
       {
@@ -27720,6 +27860,8 @@ Group
         AvPayloads = "";
         Callsign = 0;
         Callnum = 0;
+        TCode = "";
+        TCodeColors = "";
       }
     }
     Chart
@@ -27952,6 +28094,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -28014,6 +28158,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -28076,6 +28222,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -28143,6 +28291,8 @@ Group
     DeleteAfterDeath = 1;
     Spotter = -1;
     Fuel = 1;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -29099,6 +29249,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -29183,6 +29335,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -29267,6 +29421,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -29351,6 +29507,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -29435,6 +29593,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -29519,6 +29679,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -29603,6 +29765,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -29687,6 +29851,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -29883,6 +30049,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -29945,6 +30113,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30007,6 +30177,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30069,6 +30241,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30131,6 +30305,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30193,6 +30369,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30255,6 +30433,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30363,6 +30543,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30425,6 +30607,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30487,6 +30671,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30549,6 +30735,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30704,6 +30892,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30766,6 +30956,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30828,6 +31020,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30890,6 +31084,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -30975,6 +31171,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -31072,6 +31270,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -31146,6 +31346,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -31208,6 +31410,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -31453,6 +31657,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -31515,6 +31721,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -31577,6 +31785,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -31639,6 +31849,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -31701,6 +31913,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -31763,6 +31977,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -32191,6 +32407,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -32253,6 +32471,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -32315,6 +32535,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -32434,6 +32656,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -32496,6 +32720,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -32558,6 +32784,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -32803,6 +33031,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -32865,6 +33095,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -32927,6 +33159,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -32989,6 +33223,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -33051,6 +33287,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -33113,6 +33351,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -33175,6 +33415,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -33237,6 +33479,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -33442,6 +33686,8 @@ Group
     DeleteAfterDeath = 1;
     Spotter = -1;
     Fuel = 1;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -33497,6 +33743,8 @@ Group
     DeleteAfterDeath = 1;
     Spotter = -1;
     Fuel = 1;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -33787,6 +34035,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -33849,6 +34099,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -33911,6 +34163,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -33973,6 +34227,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34035,6 +34291,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34097,6 +34355,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34159,6 +34419,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34221,6 +34483,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34283,6 +34547,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34345,6 +34611,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34407,6 +34675,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34469,6 +34739,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34531,6 +34803,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34593,6 +34867,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34655,6 +34931,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34717,6 +34995,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34779,6 +35059,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34841,6 +35123,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34903,6 +35187,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -34965,6 +35251,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -35075,6 +35363,8 @@ Group
     DeleteAfterDeath = 1;
     Spotter = -1;
     Fuel = 1;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -35815,6 +36105,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -35912,6 +36204,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -35974,6 +36268,8 @@ Group
       RearmTime = 0;
       RefuelTime = 0;
       MaintenanceRadius = 10;
+      TCode = "";
+      TCodeColor = "";
     }
     
 
@@ -36510,6 +36806,8 @@ Group
     DeleteAfterDeath = 1;
     Spotter = -1;
     Fuel = 1;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -37082,6 +37380,8 @@ Group
     DeleteAfterDeath = 1;
     Spotter = -1;
     Fuel = 1;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -37137,6 +37437,8 @@ Group
     DeleteAfterDeath = 1;
     Spotter = -1;
     Fuel = 1;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -37473,6 +37775,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -37535,6 +37839,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -37597,6 +37903,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -37659,6 +37967,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -37721,6 +38031,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -37783,6 +38095,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -37845,6 +38159,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -37907,6 +38223,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38024,6 +38342,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38086,6 +38406,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38148,6 +38470,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38210,6 +38534,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38272,6 +38598,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38334,6 +38662,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38396,6 +38726,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38458,6 +38790,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38520,6 +38854,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38582,6 +38918,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38644,6 +38982,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38706,6 +39046,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38768,6 +39110,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38830,6 +39174,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38892,6 +39238,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -38954,6 +39302,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39016,6 +39366,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39078,6 +39430,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39140,6 +39494,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39202,6 +39558,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39264,6 +39622,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39326,6 +39686,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39388,6 +39750,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39450,6 +39814,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39512,6 +39878,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39574,6 +39942,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39636,6 +40006,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39698,6 +40070,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39760,6 +40134,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39822,6 +40198,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39884,6 +40262,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -39946,6 +40326,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40008,6 +40390,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40070,6 +40454,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40132,6 +40518,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40194,6 +40582,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40311,6 +40701,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40556,6 +40948,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40618,6 +41012,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40680,6 +41076,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40742,6 +41140,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40804,6 +41204,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40866,6 +41268,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40928,6 +41332,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -40990,6 +41396,8 @@ Group
     RearmTime = 0;
     RefuelTime = 0;
     MaintenanceRadius = 10;
+    TCode = "";
+    TCodeColor = "";
   }
   
 
@@ -41464,6 +41872,154 @@ Group
   }
   
 
+}
+
+
+
+Airfield
+{
+  Name = "Airfield";
+  Index = 2246;
+  LinkTrId = 2247;
+  XPos = 14123.019;
+  YPos = 118.422;
+  ZPos = 15050.556;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Model = "graphics\airfields\fakevehiclefield.mgm";
+  Script = "LuaScripts\WorldObjects\Airfields\fakevehiclefield.txt";
+  Country = 101;
+  Desc = "";
+  Durability = 25000;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  Callsign = 0;
+  Callnum = 0;
+  Planes
+  {
+    Vehicle
+    {
+      SetIndex = 0;
+      Number = 10;
+      AILevel = 2;
+      Engageable = 1;
+      Vulnerable = 1;
+      LimitAmmo = 1;
+      Renewable = 1;
+      RenewTime = 1800;
+      Model = "graphics\vehicles\_gaz-mm\_gaz-mm-72k.mgm";
+      Script = "LuaScripts\WorldObjects\Vehicles\_gaz-mm-72k.txt";
+      Name = "";
+      BeaconChannel = 0;
+      Spotter = -1;
+      AvMods = "";
+      AvSkins = "";
+      AvPayloads = "";
+      Callsign = 0;
+      PayloadId = 0;
+      Skin = "";
+      Callnum = 0;
+      WMMask = 1;
+      Fuel = 1;
+      TCode = "    ";
+      TCodeColors = "0000";
+    }
+  }
+  Chart
+  {
+    Point
+    {
+      Type = 0;
+      X = -300;
+      Y = 200;
+    }
+    Point
+    {
+      Type = 1;
+      X = -300;
+      Y = 100;
+    }
+    Point
+    {
+      Type = 1;
+      X = -400;
+      Y = 100;
+    }
+    Point
+    {
+      Type = 1;
+      X = -500;
+      Y = 100;
+    }
+    Point
+    {
+      Type = 2;
+      X = -500;
+      Y = 0;
+    }
+    Point
+    {
+      Type = 2;
+      X = 500;
+      Y = 0;
+    }
+    Point
+    {
+      Type = 1;
+      X = 500;
+      Y = 100;
+    }
+    Point
+    {
+      Type = 1;
+      X = 400;
+      Y = 100;
+    }
+    Point
+    {
+      Type = 1;
+      X = 300;
+      Y = 100;
+    }
+    Point
+    {
+      Type = 0;
+      X = 300;
+      Y = 200;
+    }
+  }
+  ReturnPlanes = 0;
+  Hydrodrome = 0;
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 1000;
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 2247;
+  Name = "Airfield entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 14123.019;
+  YPos = 118.622;
+  ZPos = 15050.556;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 2246;
 }
 
 
